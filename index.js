@@ -58,7 +58,7 @@ function CheckIfLive(ChoosenStreamer){
 			
 			if(StreamerID["streamstatut"]=="offline"){
 				console.log(StreamerID["name"]+" viens de commencer un stream !");
-				StreamerID["webhook"].send(StreamerID["name"]+' est maintenant en stream (testlocal) https://twitch.tv/'+StreamerID["name"]);
+				StreamerID["webhook"].send(StreamerID["name"]+' est maintenant en stream https://twitch.tv/'+StreamerID["name"]);
 				StreamerID["streamstatut"]="online";
 			}
 			StreamerID["streamstatut"]="online";
@@ -86,14 +86,3 @@ function CheckIfLive(ChoosenStreamer){
   setInterval(function() {CheckIfLive(StreameursToFocusOn[0].ID); }, 30000); //Kraoki
   setInterval(function() {CheckIfLive(StreameursToFocusOn[1].ID);}, 30000); //Yohen
 
-
-
-
-
-
-
-
-
-
-
- 
