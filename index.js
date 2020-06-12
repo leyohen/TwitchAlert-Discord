@@ -8,8 +8,8 @@ const webhook_ID2 =  process.env.WEBHOOK_ID2;
 const webhook_TOKEN1 =  process.env.WEBHOOK_TK;
 const webhook_TOKEN2 = process.env.WEBHOOK_TK2;
 
-const hook = new Discord.WebhookClient('webhook_ID1', 'webhook_TOKEN1');
-const hook2 = new Discord.WebhookClient('webhook_ID2', 'webhook_TOKEN2');
+const hook = new Discord.WebhookClient(webhook_ID1, webhook_TOKEN1);
+const hook2 = new Discord.WebhookClient(webhook_ID2, webhook_TOKEN2);
 
 //var ID_kraoki = "49041281";
 //var ID_leyohen = "129964618";
