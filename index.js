@@ -18,7 +18,7 @@ let VarChoosenStreamer ;
 let streamData=null ;
 
 var StreameursToFocusOn =  [
-  {name:"Kraoki",ID:"49041281",streamdata:"",streamstatut:"offline",webhook:hook},{name:"willokhlass",ID:"185261350",streamdata:"",streamstatut:"offline",webhook:hook2}
+  {name:"Kraoki",ID:"49041281",streamdata:"",streamstatut:"offline",webhook:hook},{name:"leyohen",ID:"129964618",streamdata:"",streamstatut:"offline",webhook:hook2}
   ];
 
 let StreamerID ;
