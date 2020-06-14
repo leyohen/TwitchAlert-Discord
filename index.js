@@ -58,7 +58,7 @@ function CheckIfLive(ChoosenStreamer){
 			
 			if(StreamerID["streamstatut"]=="offline"){
 				console.log(StreamerID["name"]+" viens de commencer un stream !");
-				StreamerID["webhook"].send(StreamerID["name"]+' est maintenant en stream https://twitch.tv/'+StreamerID["name"]);
+				StreamerID["webhook"].send(StreamerID["name"]+' est maintenant en stream sur '+StreamerID["streamdata"].game+' https://twitch.tv/'+StreamerID["name"]+" @everyone");
 				StreamerID["streamstatut"]="online";
 			}
 			StreamerID["streamstatut"]="online";
